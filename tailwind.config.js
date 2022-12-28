@@ -24,7 +24,6 @@ module.exports = {
     },
     fontFamily: {
       Poppins: ["Poppins", "Sans-serif"],
-      Code: ["Source Code Pro", "Sans-serif"],
     },
     extend: {},
   },
