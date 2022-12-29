@@ -9,10 +9,8 @@ const About = (props: Props) => {
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
       transition={{duration: 1.5}}
-      className='relative h-screen max-w-7xl px-10 mx-auto flex flex-col md:flex-row items-center justify-evenly text-center md:text-left'>
-      <h3 className='absolute top-24 uppercase tracking-[20px] text-grayish'>
-        About
-      </h3>
+      className='relative min-h-screen max-w-7xl px-10 mx-auto flex flex-col md:flex-row items-center justify-evenly text-center md:text-left'>
+      <h3 className='title'>About</h3>
       <motion.img
         initial={{x: -400, opacity: 0}}
         animate={{x: 0, opacity: 1}}

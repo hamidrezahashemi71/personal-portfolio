@@ -6,6 +6,15 @@
   .heroButton {
     @apply px-6 py-2  bg-primary bg-opacity-20 rounded-full tracking-widest text-gray-500 text-sm transition-all hover:border-orangish/40 hover:text-orangish
   }
+  .title {
+    @apply absolute top-24 uppercase tracking-[20px] text-grayish text-2xl
+  }
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;800;900&family=Source+Code+Pro:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
