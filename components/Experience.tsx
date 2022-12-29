@@ -12,7 +12,7 @@ const Experience = (props: Props) => {
       transition={{duration: 1.5}}
       className='relative min-h-screen flex flex-col overflow-hidden text-left md:flex-row max-w-full px-10 justify-evenly mx-auto items-center'>
       <h3 className='title'>Experience</h3>
-      <div className='mt-32 w-full flex gap-5 overflow-x-scroll xl:flex-wrap xl:gap-2 xl:justify-center xl:overflow-x-hidden p-10 snap-x snap-mandatory'>
+      <div className='mt-32 w-full flex gap-5 overflow-x-scroll xl:flex-wrap xl:gap-2 xl:justify-center xl:overflow-x-hidden p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-orangish/80'>
         <ExperienceCard />
         <ExperienceCard />
         <ExperienceCard />
