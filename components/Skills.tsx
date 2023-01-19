@@ -6,20 +6,21 @@ type Props = {};
 
 const Skills = (props: Props) => { 
   const skillset = [
-    {icon: './assets/images/html5.png', name: 'HTML5'},
-    {icon: './assets/images/css3.png', name: 'CSS3'},
-    {icon: './assets/images/js.png', name: 'JavaScript'},
-    {icon: './assets/images/ts.png', name: 'TypeScript'},
-    {icon: './assets/images/react.png', name: 'ReactJS'},
-    {icon: './assets/images/next.png', name: 'Next.js'},
-    {icon: './assets/images/redux.png', name: 'Redux'},
-    {icon: './assets/images/gql.png', name: 'Graph QL'},
-    {icon: './assets/images/axios.png', name: 'Axios'},
-    {icon: './assets/images/rest.png', name: 'RESTful API'},
-    {icon: './assets/images/mui.png', name: 'Material UI'},
-    {icon: './assets/images/tw.png', name: 'Tailwind CSS'},
-    {icon: './assets/images/sass.png', name: 'Sass'},
-    {icon: './assets/images/git.png', name: 'Git'},
+    {icon: './assets/images/html5.webp', name: 'HTML5'},
+    {icon: './assets/images/css3.webp', name: 'CSS3'},
+    {icon: './assets/images/js.webp', name: 'JavaScript'},
+    {icon: './assets/images/ts.webp', name: 'TypeScript'},
+    {icon: './assets/images/react.webp', name: 'ReactJS'},
+    {icon: './assets/images/next.webp', name: 'Next.js'},
+    {icon: './assets/images/redux.webp', name: 'Redux'},
+    {icon: './assets/images/gql.webp', name: 'Graph QL'},
+    {icon: './assets/images/axios.webp', name: 'Axios'},
+    {icon: './assets/images/rest.webp', name: 'RESTful API'},
+    {icon: './assets/images/rq.webp', name: 'React Query'},
+    {icon: './assets/images/mui.webp', name: 'Material UI'},
+    {icon: './assets/images/tw.webp', name: 'Tailwind CSS'},
+    {icon: './assets/images/sass.webp', name: 'Sass'},
+    {icon: './assets/images/git.webp', name: 'Git'},
   ]
   return (
     <motion.div

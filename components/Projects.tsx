@@ -8,17 +8,17 @@ const Projects = (props: Props) => {
     {
       title: "E-Commerce",
       desc: 'A fully functional e-commerce web application topped on a RESTful API with admin and user panel. Features of adding categories, its variables and products.',
-      img: './assets/images/ecommerce.png',
+      img: './assets/images/ecommerce.webp',
     },
     {
       title: "Blogging App",
       desc: 'A fully functional blogging web application topped on a RESTful API with admin and user panel. Features of adding and displaying blogs. ',
-      img: './assets/images/blogtor.png',
+      img: './assets/images/blogtor.webp',
     },
     {
       title: "Personal Finance",
       desc: 'A fully functional personal financing web application topped on a Apollo GraphQL API with admin and user panel. Features of creating expenses.',
-      img: './assets/images/financetor.png',
+      img: './assets/images/financetor.webp',
     },
   ];
   return (
