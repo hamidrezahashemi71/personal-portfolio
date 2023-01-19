@@ -16,9 +16,9 @@ const About = (props: Props) => {
         animate={{x: 0, opacity: 1}}
         viewport={{once: false}}
         transition={{duration: 1.2}}
-        src='/assets/images/about.png'
+        src='/assets/images/about.webp'
         alt='about'
-        className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
+        className='mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
       />
       <div className='space-y-0 px-0 md:px-10'>
         <h4 className='text-4xl font-semibold mb-4'>

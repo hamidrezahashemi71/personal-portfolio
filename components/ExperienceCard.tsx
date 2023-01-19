@@ -12,7 +12,7 @@ const ExperienceCard = (props: Props) => {
         whileInView={{y: 0, opacity: 1}}
         transition={{duration: 1.5}}
         viewport={{once: true}}
-        src='/assets/images/makeen.jpg'
+        src='/assets/images/makeen.webp'
         alt='makeen'
         className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'
       />
@@ -21,28 +21,7 @@ const ExperienceCard = (props: Props) => {
         <p className='font-bold text-xl mt-1'>Makeen Ideal Institution</p>
         <div className='flex space-x-2 my-2'>
           <Image
-            src={"/assets/images/react.png"}
-            alt='react'
-            width={40}
-            height={40}
-            className='rounded-full'
-          />
-          <Image
-            src={"/assets/images/react.png"}
-            alt='react'
-            width={40}
-            height={40}
-            className='rounded-full'
-          />
-          <Image
-            src={"/assets/images/react.png"}
-            alt='react'
-            width={40}
-            height={40}
-            className='rounded-full'
-          />
-          <Image
-            src={"/assets/images/react.png"}
+            src={"/assets/images/react.webp"}
             alt='react'
             width={40}
             height={40}
