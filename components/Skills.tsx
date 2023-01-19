@@ -33,7 +33,7 @@ const Skills = (props: Props) => {
         I'm still learning and always will be ;)
       </h3>
 
-      <div className='grid grid-cols-3 gap-5 md:grid-cols-4 md:gap-3'>
+      <div className='grid grid-cols-3 gap-2 md:grid-cols-4 md:gap-3'>
         {skillset.map((set, i) => (
           <Skill
             key={`skil${i}of${skillset.length}`}

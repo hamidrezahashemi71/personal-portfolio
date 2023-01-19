@@ -11,9 +11,9 @@ const Skill = ({icon, name}: Props) => {
   return (
     <div className='group relative flex cursor-pointer'>
       <motion.img
-        initial={{x: 200, opacity: 0}}
-        transition={{duration: 1}}
-        whileInView={{opacity: 1, x: 0}}
+        initial={{opacity: 0}}
+        whileInView={{opacity: 1}}
+        transition={{duration: 1.5}}
         src={icon}
         alt='skill-logo'
         className='rounded-full bg-primary border border-grayish p-2 w-24 h-24 md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
