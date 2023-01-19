@@ -27,11 +27,7 @@ const About = (props: Props) => {
           background
         </h4>
         <p className='text-sm '>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-          dolorem quisquam magni nemo quidem nobis itaque, odit, sapiente ad
-          vero delectus omnis? Hic exercitationem repellendus fugit. Repellendus
-          porro nam itaque vitae quam autem aspernatur at optio ratione, eius,
-          suscipit tenetur!
+          Hey! I'm Hamidreza. I was born in Zanjan, Iran and currently living in Tehran. I'd worked with C++ language in university but it was a brief experience. Suddenly last year programming and I rebounded by accident which I call it a miracle. I was not happy with my job and my laptop came in for rescue. After that learning new things everyday became my lifestyle and I moved to Tehran to seek my life in programming. I find myself loving JavaScript and web development and I think it's the way of living I always have been looking for my entire life. My goal is to develop and make progress everyday and learn new things and share it with others!
         </p>
       </div>
     </motion.div>

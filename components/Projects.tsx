@@ -4,7 +4,23 @@ import {motion} from "framer-motion";
 type Props = {};
 
 const Projects = (props: Props) => {
-  const projects = [1, 2, 3, 4, 5];
+  const projects = [
+    {
+      title: "E-Commerce",
+      desc: 'A fully functional e-commerce web application topped on a RESTful API with admin and user panel. Features of adding categories, its variables and products.',
+      img: './assets/images/ecommerce.png',
+    },
+    {
+      title: "Blogging App",
+      desc: 'A fully functional blogging web application topped on a RESTful API with admin and user panel. Features of adding and displaying blogs. ',
+      img: './assets/images/blogtor.png',
+    },
+    {
+      title: "Personal Finance",
+      desc: 'A fully functional personal financing web application topped on a Apollo GraphQL API with admin and user panel. Features of creating expenses.',
+      img: './assets/images/financetor.png',
+    },
+  ];
   return (
     <motion.div
       initial={{opacity: 0}}
@@ -21,7 +37,7 @@ const Projects = (props: Props) => {
               transition={{duration: 1.2}}
               whileInView={{opacity: 1, y: 0}}
               viewport={{once: true}}
-              src='./assets/images/project.jpg'
+              src={project.img}
               alt='project'
               className='w-72'
             />
@@ -30,13 +46,10 @@ const Projects = (props: Props) => {
                 <span className='underline decoration-orangish/50'>
                   Case study {i + 1} of {projects.length}:
                 </span>{" "}
-                Blogging app
+                {project.title}
               </h4>
               <p className='text-lg text-center md:text-left'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis blanditiis earum, voluptatibus debitis consectetur
-                perspiciatis esse sit dolores itaque quidem tempora, ipsam
-                necessitatibus qui accusantium. Ratione ab corrupti qui rerum.
+                {project.desc}
               </p>
             </div>
           </div>

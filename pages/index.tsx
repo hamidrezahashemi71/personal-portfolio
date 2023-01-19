@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import {Inter} from "@next/font/google";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
@@ -45,6 +46,18 @@ export default function Home() {
       <section id='contact' className='snap-start'>
         <Contact />
       </section>
+
+      <Link href={"#hero"}>
+        <footer className='sticky bottom-5 w-full cursor-pointer'>
+          <div className='flex items-center justify-center'>
+            <img
+              src='./assets/images/logo.png'
+              alt=''
+              className='w-32 filter grayscale'
+            />
+          </div>
+        </footer>
+      </Link>
     </div>
   );
 }

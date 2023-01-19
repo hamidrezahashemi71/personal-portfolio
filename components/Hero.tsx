@@ -26,16 +26,16 @@ const Hero = (props: Props) => {
         alt={"profile"}
         className='relative rounded-full mx-auto object-cover'
       />
-      <div className='z-20 '>
+      <div className='z-20 w-full h-[200px] '>
         <h2 className='text-sm uppercase text-grayish pb-2 tracking-[15px]'>
           Web Developer
         </h2>
-        <h1 className='text-5xl lg:6xl font-semibold px-10'>
+        <h1 className='text-3xl font-semibold px-10'>
           <span className='mr-3 font-Code'>{text}</span>
           <Cursor cursorColor='#F7AB0A' />
         </h1>
       </div>
-      <div className='pt-5 z-50'>
+      <div className='z-50 '>
         <Link href='#about'>
           <button className='heroButton'>About</button>
         </Link>
