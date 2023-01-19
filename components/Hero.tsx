@@ -27,6 +27,16 @@ const Hero = (props: Props) => {
         className='relative rounded-full mx-auto object-cover'
       />
       <div className='z-20 w-full h-[200px] '>
+          <Link target={"_blank"} href={'https://drive.google.com/file/d/1qdL3BQnGEIYTeTa0_Kj_axC2OCWllIDb/view'}>
+        <div className="relative mx-auto h-8 w-32 flex justify-center items-center mb-8">
+            <div className="i h-8 w-32 bg-purple-600 items-center rounded-xl shadow-2xl cursor-pointer absolute overflow-hidden transform hover:scale-x-110 hover:scale-y-105 transition duration-300 ease-out"></div>
+            <div  className="text-center text-white font-semibold z-10 pointer-events-none">GET CV</div>
+          <span className="absolute flex h-6 w-6 top-0 right-0 transform translate-x-2.5 -translate-y-2.5">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
+            <span className="absolute inline-flex rounded-full h-6 w-6 bg-purple-500"></span>
+          </span>
+        </div>
+          </Link>
         <h2 className='text-sm uppercase text-grayish pb-2 tracking-[15px]'>
           Web Developer
         </h2>

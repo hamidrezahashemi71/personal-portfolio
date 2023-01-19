@@ -22,6 +22,7 @@ module.exports = {
       indigo: colors.indigo,
       yellow: colors.yellow,
       slate: colors.slate,
+      purple: colors.purple,
     },
     fontFamily: {
       Poppins: ["Poppins", "Sans-serif"],
