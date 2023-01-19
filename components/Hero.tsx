@@ -22,7 +22,7 @@ const Hero = (props: Props) => {
       <Image
         width={128}
         height={128}
-        src={"/assets/images/profile.jpg"}
+        src={"/assets/images/profile.webp"}
         alt={"profile"}
         className='relative rounded-full mx-auto object-cover'
       />
