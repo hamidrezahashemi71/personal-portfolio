@@ -9,7 +9,7 @@ const About = (props: Props) => {
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
       transition={{duration: 1.5}}
-      className='relative min-h-screen max-w-7xl px-10 mx-auto flex flex-col md:flex-row items-center justify-evenly text-center md:text-left'>
+      className='relative min-h-[1100px] md:min-h-[800px] max-w-7xl px-10 mx-auto flex flex-col md:flex-row items-center justify-evenly text-center md:text-left'>
       <h3 className='title'>About</h3>
       <motion.img
         initial={{x: -400, opacity: 0}}
@@ -18,7 +18,7 @@ const About = (props: Props) => {
         transition={{duration: 1.2}}
         src='/assets/images/about.webp'
         alt='about'
-        className='mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
+        className='flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
       />
       <div className='space-y-0 px-0 md:px-10'>
         <h4 className='text-4xl font-semibold mb-4'>

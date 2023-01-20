@@ -11,7 +11,7 @@ const Skills = (props: Props) => {
     {icon: './assets/images/js.webp', name: 'JavaScript'},
     {icon: './assets/images/ts.webp', name: 'TypeScript'},
     {icon: './assets/images/react.webp', name: 'ReactJS'},
-    {icon: './assets/images/next.webp', name: 'Next.js'},
+    {icon: './assets/images/next.png', name: 'Next.js'},
     {icon: './assets/images/redux.webp', name: 'Redux'},
     {icon: './assets/images/gql.webp', name: 'Graph QL'},
     {icon: './assets/images/axios.webp', name: 'Axios'},
